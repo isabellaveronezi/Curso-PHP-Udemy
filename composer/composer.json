@@ -1,0 +1,15 @@
+{
+    "name": "hdcodebr/composer",
+    "description": "Aula de PHP 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Isabella Veronezi",
+            "email": "isabella.veronezi@webjump.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}

@@ -1,0 +1,6 @@
+{
+
+	"require': {
+	 "symfony/symfone": "3.2.4"
+ }
+}

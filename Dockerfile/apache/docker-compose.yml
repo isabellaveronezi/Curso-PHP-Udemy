@@ -1,0 +1,20 @@
+version: '3.5'
+
+services: 
+  apache2: 
+   image: ola-mundo:1.0.0
+   build: 
+      context: . 
+    volumes: 
+      ${PWD}:/var/www/html
+    ports: 
+     - 5050:80
+
+     apache2: 
+   image: ola-mundo:1.0.0
+   build: 
+      context: . 
+    volumes: 
+      ${PWD}:/var/www/html
+    ports: 
+     - 6060:80
